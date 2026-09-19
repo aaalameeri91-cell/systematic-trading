@@ -17,6 +17,8 @@
 # QC implementation changes:
 #   - Universe consists of top 3000 US non-financial stocks by market cap from NYSE, AMEX and NASDAQ.
 
+from AlgorithmImports import *
+
 
 class EarningsQualityFactor(QCAlgorithm):
     def Initialize(self):
